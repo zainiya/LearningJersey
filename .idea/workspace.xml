@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a84f589-529a-4080-aee9-f1ab97e3c4e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-service/src/main/java/com/example/MyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-service/src/main/java/com/example/MyResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-service/src/test/java/com/example/MyResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-service/src/test/java/com/example/MyResourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-service/target/classes/com/example/MyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/simple-service/target/classes/com/example/MyResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-service/target/surefire-reports/TEST-com.example.MyResourceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-service/target/surefire-reports/TEST-com.example.MyResourceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-service/target/surefire-reports/com.example.MyResourceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/simple-service/target/surefire-reports/com.example.MyResourceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-service/target/test-classes/com/example/MyResourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/simple-service/target/test-classes/com/example/MyResourceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="2a84f589-529a-4080-aee9-f1ab97e3c4e9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +46,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-heroku-webapp/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-heroku-webapp/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-service/src/main/java/com/example/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -226,7 +208,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563593101061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563652655528" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
