@@ -1,14 +1,20 @@
 package com.example;
 
+import java.net.URI;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
+//import javax.ws.rs.core.MediaType;
+import javax.ws.*;
+import javax.ws.rs.PUT;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.*;
+import org.glassfish.jersey.server.spi.Container;
 
 /**
  * Root resource (exposed at "myresource" path)
  */
-@Path("myresource")
+@Path("/helloworld")
 public class MyResource {
 
     /**
@@ -25,11 +31,26 @@ public class MyResource {
     public static final String CLICHED_MESSAGE = "Hello World!";
 
     @GET
-    @Produces("text/plain")
-        public String getHello() {
-        return CLICHED_MESSAGE;
+    @Path("{username}")
+        public Response getHello(@PathParam("username") String userName) {
+        return Response.status(200).entity("getUserByName " + userName).build();
     }
 
-
+//    @PUT
+//    public Response putContainer(){
+//        System.out.println("PUT CONTAINER " + container);
+//        URI uri = uriInfo.getAbsolutePath();
+//        Container c = new Container(container, uri.toString());
+//
+//        Response r;
+//        if(!MemoryStore.MS.hasContainer(c)){
+//            r = Response.created(uri).build();
+//        }else{
+//            r = Response.noContent().build();
+//        }
+//
+//        MemeoryStore.MS.createContainer(c);
+//        return r;
+//    }
 
 }
